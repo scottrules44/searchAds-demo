@@ -1,0 +1,28 @@
+settings =
+{
+    
+	iphone =
+	{
+		plist =
+        {
+            ["com.apple.developer.associated-domains"] = {
+                "applinks:scotth.tech",
+            },
+		    MinimumOSVersion = "8.0",
+		    UIApplicationExitsOnSuspend = false,
+		   
+            NSAppTransportSecurity =
+            {
+                NSAllowsArbitraryLoads = true,
+            },
+        },
+	},
+    plugins =
+    {
+        ["plugin.searchAds"] =
+        {
+            publisherId = "tech.scotth"
+        },
+    },
+    
+}
