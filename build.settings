@@ -18,7 +18,8 @@ settings =
     {
         ["plugin.searchAds"] =
         {
-            publisherId = "tech.scotth"
+            publisherId = "tech.scotth",
+	    marketplaceId = "replace with your own"
         },
     },
     
